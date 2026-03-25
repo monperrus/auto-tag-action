@@ -4,7 +4,7 @@ inputs:
   bump_type:
     description: "Version component to increment: major, minor, or micro"
     required: false
-    default: "micro"
+    default: "minor"
   initial_version:
     description: "Version to use when no previous tag exists"
     required: false
