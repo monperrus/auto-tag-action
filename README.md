@@ -1,4 +1,4 @@
-# auto-tag-action
+# gako-tag-action
 
 A reusable GitHub Action that automatically creates a version tag for each commit pushed to `main`. The version number is computed by incrementing the previous tag, according to bump_type.
 
@@ -48,7 +48,7 @@ jobs:
 
       - name: Create version tag
         id: tag
-        uses: monperrus/auto-tag-action@main
+        uses: monperrus/gako-tag-action@main
         with:
           bump_type: minor   # or major / micro
 ```

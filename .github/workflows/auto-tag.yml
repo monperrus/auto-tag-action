@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: monperrus/auto-tag-action@main
+      - uses: monperrus/gako-tag-action@main

@@ -59,10 +59,10 @@ echo "Creating tag: $NEW_TAG"
 
 # Configure git identity if not already set
 if ! git config user.email > /dev/null 2>&1; then
-  git config user.email "auto-tag-action@github.com"
+  git config user.email "gako-tag-action@github.com"
 fi
 if ! git config user.name > /dev/null 2>&1; then
-  git config user.name "auto-tag-action"
+  git config user.name "gako-tag-action"
 fi
 
 git tag "$NEW_TAG"

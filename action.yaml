@@ -1,4 +1,4 @@
-name: "auto-tag-action"
+name: "gako-tag-action"
 description: "Automatically creates a version tag for each commit pushed to main. The version is computed by incrementing the previous tag."
 inputs:
   bump_type:
